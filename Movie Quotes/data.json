@@ -1,0 +1,100 @@
+[
+  {
+    "place": 1,
+    "quote": "I'm gonna make him an offer he can't refuse.",
+    "movie": "The Godfather",
+    "year": 1972,
+    "image": "img1"
+  },
+  {
+    "place": 2,
+    "quote": "May the Force be with you.",
+    "movie": "Star Wars",
+    "year": 1977,
+    "image": "img2"
+  }, 
+  {
+    "place": 3,
+    "quote": "E.T. phone home.",
+    "movie": "E.T. the Extra-Terrestrial",
+    "year": 1982,
+    "image": "img3"
+  },
+  {
+    "place": 4,
+    "quote": "A census taker once tried to test me. I ate his liver with some fava beans and a nice Chianti.",
+    "movie": "The Silence of the Lambs",
+    "year": 1991,
+    "image": "img4"
+  },
+  {
+    "place": 5,
+    "quote": "There's no place like home.",
+    "movie": "The Wizard of Oz",
+    "year": 1939,
+    "image": "img5"
+  },
+  {
+    "place": 6,
+    "quote": "I'll be back.",
+    "movie": "The Terminator",
+    "year": 1984,
+    "image": "img6"
+  },
+  {
+    "place": 7,
+    "quote": "If you build it, he will come.",
+    "movie": "Field of Dreams",
+    "year": 1989,
+    "image": "img7"
+  },
+  {
+    "place": 8,
+    "quote": "My mama always said life was like a box of chocolates. You never know what you're gonna get.",
+    "movie": "Forrest Gump",
+    "year": 1994,
+    "image": "img8"
+  },
+  {
+    "place": 9,
+    "quote": "I see dead people.",
+    "movie": "The Sixth Sense",
+    "year": 1999,
+    "image": "img9"
+  },
+  {
+    "place": 10,
+    "quote": "You had me at hello.",
+    "movie": "Jerry Maguire",
+    "year": 1996,
+    "image": "img10"
+  },
+  {
+    "place": 11,
+    "quote": "Keep your friends close, but your enemies closer.",
+    "movie": "The Godfather Part II",
+    "year": 1974,
+    "image": "img11"
+  },
+  {
+    "place": 12,
+    "quote": "I'm the king of the world!",
+    "movie": "Titanic",
+    "year": 1997,
+    "image": "img12"
+  },
+  {
+    "place": 13,
+    "quote": "To infinity and beyond!",
+    "movie": "Toy Story",
+    "year": 1995,
+    "image": "img13"
+  },
+  {
+    "place": 14,
+    "quote": "Just keep swimming.",
+    "movie": "Finding Nemo",
+    "year": 2003,
+    "image": "img14"
+  }
+]

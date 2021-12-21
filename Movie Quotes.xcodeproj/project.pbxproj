@@ -7,23 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5BECBF09D5C49BDAE8DC92BD /* Pods_Movie_Quotes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E50D3D092EA9E59E3E24113 /* Pods_Movie_Quotes.framework */; };
 		854DEDB427720F4300D2E0E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854DEDB327720F4300D2E0E0 /* AppDelegate.swift */; };
 		854DEDB627720F4300D2E0E0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854DEDB527720F4300D2E0E0 /* SceneDelegate.swift */; };
-		854DEDB827720F4300D2E0E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854DEDB727720F4300D2E0E0 /* ViewController.swift */; };
 		854DEDBB27720F4300D2E0E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 854DEDB927720F4300D2E0E0 /* Main.storyboard */; };
 		854DEDBD27720F4500D2E0E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 854DEDBC27720F4500D2E0E0 /* Assets.xcassets */; };
 		854DEDC027720F4500D2E0E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 854DEDBE27720F4500D2E0E0 /* LaunchScreen.storyboard */; };
+		854DEDC82772187D00D2E0E0 /* MovieCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854DEDC72772187D00D2E0E0 /* MovieCollectionViewController.swift */; };
+		854DEDCA277218A900D2E0E0 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854DEDC9277218A900D2E0E0 /* QuizViewController.swift */; };
+		854DEDCC2772270400D2E0E0 /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854DEDCB2772270400D2E0E0 /* MovieModel.swift */; };
+		854DEDD0277236B600D2E0E0 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 854DEDCF277236B600D2E0E0 /* data.json */; };
+		854DEDD22772371600D2E0E0 /* DataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854DEDD12772371600D2E0E0 /* DataLoader.swift */; };
+		854DEDD6277239E400D2E0E0 /* MovieCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854DEDD5277239E400D2E0E0 /* MovieCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E50D3D092EA9E59E3E24113 /* Pods_Movie_Quotes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Movie_Quotes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		854DEDB027720F4300D2E0E0 /* Movie Quotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Movie Quotes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		854DEDB327720F4300D2E0E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		854DEDB527720F4300D2E0E0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		854DEDB727720F4300D2E0E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		854DEDBA27720F4300D2E0E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		854DEDBC27720F4500D2E0E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		854DEDBF27720F4500D2E0E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		854DEDC127720F4500D2E0E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		854DEDC72772187D00D2E0E0 /* MovieCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCollectionViewController.swift; sourceTree = "<group>"; };
+		854DEDC9277218A900D2E0E0 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		854DEDCB2772270400D2E0E0 /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
+		854DEDCF277236B600D2E0E0 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		854DEDD12772371600D2E0E0 /* DataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoader.swift; sourceTree = "<group>"; };
+		854DEDD5277239E400D2E0E0 /* MovieCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCollectionViewCell.swift; sourceTree = "<group>"; };
+		8F1F841BA1FC33AC5DCA4126 /* Pods-Movie Quotes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Movie Quotes.release.xcconfig"; path = "Target Support Files/Pods-Movie Quotes/Pods-Movie Quotes.release.xcconfig"; sourceTree = "<group>"; };
+		F7BC3A6382C55C709625C17F /* Pods-Movie Quotes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Movie Quotes.debug.xcconfig"; path = "Target Support Files/Pods-Movie Quotes/Pods-Movie Quotes.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +45,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BECBF09D5C49BDAE8DC92BD /* Pods_Movie_Quotes.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B6D3109197009B0374944E5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F7BC3A6382C55C709625C17F /* Pods-Movie Quotes.debug.xcconfig */,
+				8F1F841BA1FC33AC5DCA4126 /* Pods-Movie Quotes.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3FFCDCD296FAB09B32C0B3D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E50D3D092EA9E59E3E24113 /* Pods_Movie_Quotes.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		854DEDA727720F4300D2E0E0 = {
 			isa = PBXGroup;
 			children = (
 				854DEDB227720F4300D2E0E0 /* Movie Quotes */,
 				854DEDB127720F4300D2E0E0 /* Products */,
+				3B6D3109197009B0374944E5 /* Pods */,
+				3FFCDCD296FAB09B32C0B3D3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +91,44 @@
 		854DEDB227720F4300D2E0E0 /* Movie Quotes */ = {
 			isa = PBXGroup;
 			children = (
+				854DEDCF277236B600D2E0E0 /* data.json */,
 				854DEDB327720F4300D2E0E0 /* AppDelegate.swift */,
 				854DEDB527720F4300D2E0E0 /* SceneDelegate.swift */,
-				854DEDB727720F4300D2E0E0 /* ViewController.swift */,
 				854DEDB927720F4300D2E0E0 /* Main.storyboard */,
 				854DEDBC27720F4500D2E0E0 /* Assets.xcassets */,
 				854DEDBE27720F4500D2E0E0 /* LaunchScreen.storyboard */,
 				854DEDC127720F4500D2E0E0 /* Info.plist */,
+				854DEDD727723A1700D2E0E0 /* View */,
+				854DEDD42772398C00D2E0E0 /* Controllers */,
+				854DEDD32772397900D2E0E0 /* Model */,
 			);
 			path = "Movie Quotes";
+			sourceTree = "<group>";
+		};
+		854DEDD32772397900D2E0E0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				854DEDCB2772270400D2E0E0 /* MovieModel.swift */,
+				854DEDD12772371600D2E0E0 /* DataLoader.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		854DEDD42772398C00D2E0E0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				854DEDC9277218A900D2E0E0 /* QuizViewController.swift */,
+				854DEDC72772187D00D2E0E0 /* MovieCollectionViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		854DEDD727723A1700D2E0E0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				854DEDD5277239E400D2E0E0 /* MovieCollectionViewCell.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +138,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 854DEDC427720F4500D2E0E0 /* Build configuration list for PBXNativeTarget "Movie Quotes" */;
 			buildPhases = (
+				DAC7D9FD14E158A3BF022F2A /* [CP] Check Pods Manifest.lock */,
 				854DEDAC27720F4300D2E0E0 /* Sources */,
 				854DEDAD27720F4300D2E0E0 /* Frameworks */,
 				854DEDAE27720F4300D2E0E0 /* Resources */,
+				BFB9E145B33C928AAE9CF8FD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,19 +194,66 @@
 				854DEDC027720F4500D2E0E0 /* LaunchScreen.storyboard in Resources */,
 				854DEDBD27720F4500D2E0E0 /* Assets.xcassets in Resources */,
 				854DEDBB27720F4300D2E0E0 /* Main.storyboard in Resources */,
+				854DEDD0277236B600D2E0E0 /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BFB9E145B33C928AAE9CF8FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Movie Quotes/Pods-Movie Quotes-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Movie Quotes/Pods-Movie Quotes-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Movie Quotes/Pods-Movie Quotes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAC7D9FD14E158A3BF022F2A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Movie Quotes-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		854DEDAC27720F4300D2E0E0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				854DEDB827720F4300D2E0E0 /* ViewController.swift in Sources */,
 				854DEDB427720F4300D2E0E0 /* AppDelegate.swift in Sources */,
 				854DEDB627720F4300D2E0E0 /* SceneDelegate.swift in Sources */,
+				854DEDD22772371600D2E0E0 /* DataLoader.swift in Sources */,
+				854DEDC82772187D00D2E0E0 /* MovieCollectionViewController.swift in Sources */,
+				854DEDD6277239E400D2E0E0 /* MovieCollectionViewCell.swift in Sources */,
+				854DEDCA277218A900D2E0E0 /* QuizViewController.swift in Sources */,
+				854DEDCC2772270400D2E0E0 /* MovieModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +397,7 @@
 		};
 		854DEDC527720F4500D2E0E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7BC3A6382C55C709625C17F /* Pods-Movie Quotes.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,6 +426,7 @@
 		};
 		854DEDC627720F4500D2E0E0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F1F841BA1FC33AC5DCA4126 /* Pods-Movie Quotes.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
