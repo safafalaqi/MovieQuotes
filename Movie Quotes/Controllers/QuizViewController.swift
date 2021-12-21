@@ -57,7 +57,7 @@ class QuizViewController: UIViewController{
             } else{
                 
                 guessField.text = ""
-                let alert = UIAlertController(title: "", message: "The correct answer is \(currentMovie.movie)" , preferredStyle: UIAlertController.Style.alert)
+                let alert = UIAlertController(title: "Wrong Answer", message: "The correct answer is \(currentMovie.movie)" , preferredStyle: UIAlertController.Style.alert)
                 alert.addAction(UIAlertAction(title: "Ok", style: UIAlertAction.Style.cancel, handler: nil))
                 self.present(alert, animated: true, completion: nil)
                 nextQuestuion()
@@ -107,7 +107,7 @@ class QuizViewController: UIViewController{
     
     @IBAction func showAnswer(_ sender: UIButton) {
         
-        let alert = UIAlertController(title: "", message: "The correct answer is \(currentMovie.movie)" , preferredStyle: UIAlertController.Style.alert)
+        let alert = UIAlertController(title: "Skip", message: "The correct answer is \(currentMovie.movie)" , preferredStyle: UIAlertController.Style.alert)
         alert.addAction(UIAlertAction(title: "Ok", style: UIAlertAction.Style.cancel, handler:  { action in
             
             self.index += 1
